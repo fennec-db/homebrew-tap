@@ -1,4 +1,4 @@
-# Written by tools/homebrew-formula.py in fenecdb/fenecdb from release v0.1.11's
+# Written by tools/homebrew-formula.py in fenecdb/fenecdb from release v0.1.12's
 # SHA256SUMS, not by hand: `--check` writes it again from the same release and
 # compares, and `--verify` holds its sums to the release's files.
 class Fenecdb < Formula
@@ -13,23 +13,23 @@ class Fenecdb < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/fenecdb/fenecdb/releases/download/v0.1.11/fenec-v0.1.11-aarch64-apple-darwin.tar.gz"
-      sha256 "e2f89f0e6e6a6728a17065cfe02a447bbc260eb6c657caf57754fda7c0d2ea51"
+      url "https://github.com/fenecdb/fenecdb/releases/download/v0.1.12/fenec-v0.1.12-aarch64-apple-darwin.tar.gz"
+      sha256 "55e50789bc9a836c07d63d7ce220fbb7c8134248ea4bae113d677f8ab8bad7d5"
     end
     on_intel do
-      url "https://github.com/fenecdb/fenecdb/releases/download/v0.1.11/fenec-v0.1.11-x86_64-apple-darwin.tar.gz"
-      sha256 "48a610c61456cfd6ef0c5e43723f169d343699b0fd6cc1b00e62dab12c332025"
+      url "https://github.com/fenecdb/fenecdb/releases/download/v0.1.12/fenec-v0.1.12-x86_64-apple-darwin.tar.gz"
+      sha256 "68cbd8efcf14d1a635d16237430395b54a3f254cb4f49e37465785179c549afa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fenecdb/fenecdb/releases/download/v0.1.11/fenec-v0.1.11-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "fa8e492b5be0f7f2d0f1ba19c3d6cc733c1e66177f76d44221030b570f2f05c1"
+      url "https://github.com/fenecdb/fenecdb/releases/download/v0.1.12/fenec-v0.1.12-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "8b20b4fb42a45d15b03b202c486dc2b971f3bf6b7e112d4d9c18e61499339dcd"
     end
     on_intel do
-      url "https://github.com/fenecdb/fenecdb/releases/download/v0.1.11/fenec-v0.1.11-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d5acff57f2b960051e00c66a872080580bfb7ff3f3cb49ae5e21fa8fddf38d8d"
+      url "https://github.com/fenecdb/fenecdb/releases/download/v0.1.12/fenec-v0.1.12-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a2dffc17ed94ef162feb2974260fb2f95640a9f49944aa78cdee4f53b9709387"
     end
   end
 
